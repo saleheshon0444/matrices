@@ -8,11 +8,9 @@ const matrix = [
 //   console.log(i);
 let sum = 0;
 for (let i = 0; i < matrix.length; i++) {
-  console.log(matrix[i]);
-  for (let z = 0; z < matrix[i].length; z++) {
-    console.log(matrix[i][z]);
+  for (let z = matrix.length - 1; z > -1; z--) {
+    console.log(matrix[z]);
   }
-  //   console.log(sum);
 }
 
 // var sum = (r, a) => r.map((b, i) => a[i] + b);
